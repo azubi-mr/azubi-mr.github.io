@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geschenkgutscheine</title>
+</head>
+
+<body>
+    <!--Header START-->
+    <div class="navigation">
+
+        <div class="burgermenu">
+            <span onclick="openNav()">&#9776; Menü</span>
+        </div>
+
+        <div id="navMenu" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#">Home</a>
+            <a href="#">Über Uns</a>
+            <a href="#">Über Honig</a>
+            <a href="#">Unsere Produkte</a>
+            <a href="#">Unsere Geschenkgutescheine</a>
+            <br>
+            <a href="#">Kontakt</a>
+            <a href="#">Impressum</a>
+            <img href="#" alt="Imkerei Bienenfleiß" src="/BILDER/Logo_Bienenfleiss_clear_RGB.svg" class="navlogo">
+        </div>
+    </div>
+
+
+    <!--Header END-->
+    <!--<div class="img-wrapper">
+        <img src="BILDER/Bild_12.jpg">
+        <h1 class="center-title">Geschenkgutscheine</h1>
+    </div>-->
+    <div class="alt-img-wrapper">
+        <img src="BILDER/Bild_12.jpg">
+        <h1 class="center-title">Geschenkgutscheine</h1>
+    </div>
+
+    <!--Gutscheine START-->
+    <div class="wrap">
+        <section>
+            <p>Machen Sie Ihren Freunden eine Freude: Mit einem unserer Geschenkgutscheine. Wählen Sie, ob es ein süßes Präsent aus Honig sein soll, ob Sie einen Bienenbesuch oder gleich einen Imkerkurs verschenken wollen. Es geht ganz einfach: Sie drücken auf den entsprechenden Bestell-Button, dann gelangen Sie zu der Bezahlseite mit allen wichtigen Daten. Und wir stellen Ihnen einen wertvoll gestalteten Gutschein aus, den Sie per Post erhalten.</p>
+            <div class="pricing-table row">
+                <!--Gutschein 1-->
+                <div class="col col-sm-4">
+                    <div class="package">
+                        <p class="package-name">Gutschein Honig</p>
+                        <hr>
+
+                        <span class="disclaimer">im Wert von</span>
+                        <p class="price">50€</p>
+                        <hr>
+
+                        <ul class="features">
+                            <li>Imkerei Bienenfleiß</li>
+                            <li>Sie erhalten aus unserem Sortiment je zwei 250-g-Gläser:</li>
+                            <li><dfn data-info="aus Blüten von Raps, Löwenzahn, Apfel und Kirsche"><b>Frühtrachthonig</b> &#10047;</dfn></li>
+                            <li><b>Ahornhonig</b></li>
+                            <li><dfn data-info="aus Blüten von Linde und Robinie"><b>Sommertrachthonig</b> &#10047;</dfn><br></li>
+                            <li><b>Edelkastanienhonig</b></li>
+                        </ul>
+                        <button class="button-primary">Jetzt bestellen</button>
+                    </div>
+                </div>
+                <!--Gutschein 2-->
+                <div class="col col-sm-4">
+                    <div class="package">
+                        <p class="package-name">Gutschein Bienenbesuch</p>
+                        <hr>
+
+                        <span class="disclaimer">Familiengutschein im Wert von</span>
+                        <p class="price">10€</p>
+                        <hr>
+
+                        <ul class="features">
+                            <li>Imkerei Bienenfleiß</li>
+                            <li>gültig fürs Honigjahr von Mitte Mai bis Mitte August 2019</li>
+                            <li>Das erwartet unsere Besucher/innen in den 2 Stunden:</li>
+                            <li>Wissenswertes aus dem Alltag der Imkerei</li>
+                            <li>Blick in den Bienenstock</li>
+                            <li>Neues vom Wert des Honigs</li>
+                            <li>Honigverkostung</li>
+                            <li>Die Termine vereinbaren wir mit den Beschenkten.</li>
+                        </ul>
+                        <button class="button-primary">Jetzt bestellen</button>
+                    </div>
+                </div>
+                <!--Gutschein 3-->
+                <div class="col col-sm-4">
+                    <div class="package">
+                        <p class="package-name">Gutschein Imkerkurs 2019/20</p>
+                        <hr>
+
+                        <span class="disclaimer">im Wert von</span>
+                        <p class="price">240€</p>
+                        <hr>
+
+                        <ul class="features">
+                            <li>Imkerei Bienenfleiß</li>
+                            <li>Kurs über 6 Samstage</li>
+                            <button onclick="document.getElementById('kursinfo').style.display='block'" class="button-warning">Information</button>
+                        </ul>
+                        <button class="button-primary">Jetzt bestellen</button>
+                    </div>
+                </div>
+
+        </section>
+
+        <div class="modal-mask" id="kursinfo" style="display: none">
+            <div class="modal">
+                <div class="modal-head">
+                    <p class="modal-title">Informationen zum Imkerkurs</p>
+                </div>
+                <div class="modal-body">
+                    <p>Das lernen die Beschenkten an 6 Samstagen, Beginn jeweil 10 Uhr:</p>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Termin</th>
+                                <th>Inhalt</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>20. April 2019</td>
+                                <td>Theoretische Grundlagen</td>
+                            </tr>
+                            <tr>
+                                <td>18. Mai 2019</td>
+                                <td>Erste Arbeit mit dem Schwarm</td>
+                            </tr>
+                            <tr>
+                                <td>10. August 2019</td>
+                                <td>Behandlung von Krankheiten</td>
+                            </tr>
+                            <tr>
+                                <td>31. August 2019</td>
+                                <td>Futterkontrolle</td>
+                            </tr>
+                            <tr>
+                                <td>7. Dezember 2019</td>
+                                <td>Bienen im Winter</td>
+                            </tr>
+                            <tr>
+                                <td>14. März 2020</td>
+                                <td>Auswinterung</td>
+                            </tr>
+                            <tr>
+                                <td>16. Mai 2020</td>
+                                <td>Schwarmkontrolle</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="modal-footer">
+                    <button onclick="document.getElementById('kursinfo').style.display='none'" class="button-primary">&times; Schließen</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!--Gutscheine END-->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col col-lg-5">
+                    <div class="footer-text">
+                        <ul>
+                            <li>Sunny Tracht</li>
+                            <li>Friedhofsgasse 3</li>
+                            <li>99999 Wiesenhain</li>
+                            <li><a href="tel:+4909871234">Tel: 0987/1234</a></li>
+                            <li><a href="mailto:info@bienenfleiß.de">info@bienenfleiß.de</a></li>
+                            <li>www.bienenfleiß.de</li>
+                        </ul>
+                        <img src="BILDER/Logo_Bienenfleiss_clear_RGB.svg">
+                    </div>
+                </div>
+                <div class="col col-sm-6 col-lg-3 col-lg-offset-1">
+                    <h4 class="footer-links-category">Die Imkerei</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Über Uns</a></li>
+                        <li><a href="#">Über Honig</a></li>
+                        <li><a href="#">Unsere Produkte</a></li>
+                        <li><a href="#">Geschenkgutscheine</a></li>
+                    </ul>
+                </div>
+
+                <div class="col col-sm-6 col-lg-3">
+                    <h4 class="footer-links-category">Kontakt</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Kontakt</a></li>
+                        <li><a href="#">Impressum</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <p class="copyright align-center">Moritz Ringwald - D2MT</p>
+
+    </footer>
+
+    <script>
+        //             Menu Folding
+        function openNav() {
+            document.getElementById("navMenu").style.width = "450px";
+        }
+
+        function closeNav() {
+            document.getElementById("navMenu").style.width = "0";
+        }
+    </script>
+</body></html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="/honey-ui.css">
