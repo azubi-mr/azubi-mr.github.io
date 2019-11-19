@@ -115,7 +115,7 @@ body {
     width: 100%;
     margin-top: 66px;
     display: block;
-    
+
 }
 
 .center-title {
@@ -1065,7 +1065,8 @@ input[type='submit']:disabled:hover {
 .button-warning {
     background-color: #ffb300;
     color: #fff;
-    border-color: #ffb300
+    border-color: #ffb300;
+    margin-top: 15px
 }
 
 .button-warning-outlined {
@@ -1325,7 +1326,7 @@ a:active {
 ul,
 ol,
 dl {
-    list-style: none;
+    /*    list-style: none;*/
     margin-bottom: 15px
 }
 
@@ -1857,11 +1858,11 @@ nav a,
 }
 
 .nav-links a:active {
-    color: #4caf50
+    color: #4caf50;
 }
 
 #activepage {
-    color: lightcoral;
+    color: #4F372A;
 }
 
 .nav-links a.active {
@@ -2094,12 +2095,21 @@ nav a,
 
 .pricing-table .package .features {
     flex: 1;
-    padding: 15px;
-    list-style: none
+    padding-top: 15px;
+    list-style: none;
 }
 
-.pricing-table .package .features li {
-    margin-bottom: 5px
+.pricing-table .package .feature-content {
+    text-align: left;
+}
+
+ul.feature-content {
+    list-style: circle;
+    padding-left: 10px;
+}
+
+ul.feature-content li {
+    margin-bottom: 10px;
 }
 
 .progress-bar {
